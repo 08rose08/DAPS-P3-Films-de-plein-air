@@ -14,7 +14,7 @@
     <body class="bg-dark text-white">
         <header id="header">
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #880015">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="../index.html">
                     <img src="../images/logo-blanc1.png" width="250" alt="" loading="lazy">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,78 +44,106 @@
         </header>
         <main>
             <h1>La programmation</h1>
-            <article class="m-5">
-                <h2>5 Août</h2>
-                <nav>
-                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <a class="nav-item nav-link active" id="nav-truman-tab" data-toggle="tab" href="#nav-truman" role="tab" aria-controls="nav-home" aria-selected="true">The Truman Show</a>
-                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Matrix</a>
-                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Cloud Atlas</a>
-                    </div>
+            <div class="m-5">
+                <nav class="nav nav-tabs flex-column flex-sm-row">
+                    <a class="flex-sm-fill text-sm-center nav-link text-danger active" id="nav-5-tab" data-toggle="tab" href="#nav-5" role="tab" aria-controls="nav-5" aria-selected="true">5 Août</a>
+                    <a class="flex-sm-fill text-sm-center nav-link text-danger" id="nav-6-tab" data-toggle="tab" href="#nav-6" role="tab" aria-controls="nav-6" aria-selected="false">6 Août</a>
+                    <a class="flex-sm-fill text-sm-center nav-link text-danger" id="nav-7-tab" data-toggle="tab" href="#nav-7" role="tab" aria-controls="nav-7" aria-selected="false">7 Août</a>
+                    <a class="flex-sm-fill text-sm-center nav-link text-danger" id="nav-8-tab" data-toggle="tab" href="#nav-8" role="tab" aria-controls="nav-8" aria-selected="false">8 Août</a>
                 </nav>
-                <div class="tab-content card bg-transparent" id="nav-tabContent">
-                        <div class="d-flex flex-column flex-md-row m-2 no-gutters tab-pane fade show active" id="nav-truman" role="tabpanel" aria-labelledby="nav-truman-tab">
-                            <div class="col-md-3">
-                                <img src="../images/thetrumanshow.jpg" class="card-img" alt="Affiche du film The Truman Show">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h3 class="card-title">The Truman Show</h3>
-                                    <p class="card-subtitle">Réalisateur : Peter Weir</p>
-                                    <p class="card-text">Synopsis : Truman Burbank mène une vie calme et heureuse. Il habite dans un petit pavillon propret de la radieuse station balnéaire de Seahaven. Il part tous les matins à son bureau d'agent d'assurances dont il ressort huit heures plus tard pour regagner son foyer, savourer le confort de son habitat modèle, la bonne humeur inaltérable et le sourire mécanique de sa femme, Meryl. Mais parfois, Truman étouffe sous tant de bonheur et la nuit l'angoisse le submerge. Il se sent de plus en plus étranger, comme si son entourage jouait un rôle. Pis encore, il se sent observé.</p>
+                <article class="tab-content" id="nav-tabContent-5">
+                    <section class="tab-pane fade show active" id="nav-5" role="tabpanel" aria-labelledby="nav-5-tab">
+                        <h2>5 Août</h2>
+                        <div class="card bg-transparent">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="../images/thetrumanshow.jpg" class="card-img my-md-4" alt="Affiche du film The Truman Show">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h3 class="card-subtitle">18h The Truman Show</h3>
+                                        <p class="card-text">Réalisateur : Peter Weir</p>
+                                        <p class="card-text">Synopsis : Truman Burbank mène une vie calme et heureuse. Il habite dans un petit pavillon propret de la radieuse station balnéaire de Seahaven. Il part tous les matins à son bureau d'agent d'assurances dont il ressort huit heures plus tard pour regagner son foyer, savourer le confort de son habitat modèle, la bonne humeur inaltérable et le sourire mécanique de sa femme, Meryl. Mais parfois, Truman étouffe sous tant de bonheur et la nuit l'angoisse le submerge. Il se sent de plus en plus étranger, comme si son entourage jouait un rôle. Pis encore, il se sent observé.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
-
-                    
-                </div>
-                <!--
-                <div class="card-deck ">
-                    <div class="card bg-transparent">
-                        <div class="card-header">
-                            <h3 class="text-center">18h</h3>
+                        <div class="card bg-transparent">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="../images/matrix.jpg" class="card-img my-md-4" alt="Affiche du film Matrix">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h3 class="card-subtitle">20h Matrix</h3>
+                                        <p class="card-text">Réalisateurs : Lana Wachowski, Lilly Wachowski</p>
+                                        <p class="card-text">Synopsis : À travers une histoire qui se déroule sur cinq siècles dans plusieurs espaces temps, des êtres se croisent et se retrouvent d’une vie à l’autre, naissant et renaissant successivement… Tandis que leurs décisions ont des conséquences sur leur parcours, dans le passé, le présent et l’avenir lointain, un tueur devient un héros et un seul acte de générosité suffit à entraîner des répercussions pendant plusieurs siècles et à provoquer une révolution. Tout, absolument tout, est lié.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      <img src="../images/thetrumanshow.jpg" class="card-img-top p-md-2" alt="Affiche du film The Truman Show">
-                      <div class="card-body p-1 p-md-2">
-                        <h3 class="card-title text-center">The Truman Show</h3>
-                        <p class="card-text text-center">Réalisateur : Peter Weir</p>
-                        <small>Synopsis : Truman Burbank mène une vie calme et heureuse. Il habite dans un petit pavillon propret de la radieuse station balnéaire de Seahaven. Il part tous les matins à son bureau d'agent d'assurances dont il ressort huit heures plus tard pour regagner son foyer, savourer le confort de son habitat modèle, la bonne humeur inaltérable et le sourire mécanique de sa femme, Meryl. Mais parfois, Truman étouffe sous tant de bonheur et la nuit l'angoisse le submerge. Il se sent de plus en plus étranger, comme si son entourage jouait un rôle. Pis encore, il se sent observé.</small>
-                      </div>
-                      <div class="card-footer p-1 p-md-2">
-                      </div>
-                    </div>
-                    <div class="card bg-transparent">
-                        <div class="card-header">
-                            <h3 class="text-center">20h</h3>
+                        <div class="card bg-transparent">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="../images/cloudatlas.jpg" class="card-img my-md-4" alt="Affiche du film Cloud Atlas">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h3 class="card-subtitle">22h Cloud Atlas</h3>
+                                        <p class="card-text">Réalisateurs : Lana Wachowski, Tom Tykwer, Lilly Wachowski</p>
+                                        <p class="card-text">Synopsis : À travers une histoire qui se déroule sur cinq siècles dans plusieurs espaces temps, des êtres se croisent et se retrouvent d’une vie à l’autre, naissant et renaissant successivement… Tandis que leurs décisions ont des conséquences sur leur parcours, dans le passé, le présent et l’avenir lointain, un tueur devient un héros et un seul acte de générosité suffit à entraîner des répercussions pendant plusieurs siècles et à provoquer une révolution. Tout, absolument tout, est lié.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>       
+                    </section>
+                    <section class="tab-pane fade " id="nav-6" role="tabpanel" aria-labelledby="nav-6-tab">
+                        <h2>6 Août</h2>
+                        <div class="card bg-transparent">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="../images/lavague.jpg" class="card-img my-md-4" alt="Affiche du film La Vague">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h3 class="card-subtitle">18h La Vague</h3>
+                                        <p class="card-text">Réalisateur : Dennis Gansel</p>
+                                        <p class="card-text">Synopsis : En Allemagne, aujourd'hui. Dans le cadre d'un atelier, un professeur de lycée propose à ses élèves une expérience visant à leur expliquer le fonctionnement d'un régime totalitaire. Commence alors un jeu de rôle grandeur nature, dont les conséquences vont s'avérer tragiques.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      <img src="../images/matrix.jpg" class="card-img-top p-md-2" alt="Affiche du film Matrix">
-                      <div class="card-body p-1 p-md-2">
-                        <h3 class="card-title text-center">Matrix</h3>
-                        <p class="card-text text-center">Réalisateurs : Lana Wachowski, Lilly Wachowski</p>
-                        <small>Synopsis : Programmeur anonyme dans un service administratif le jour, Thomas Anderson devient Neo la nuit venue. Sous ce pseudonyme, il est l'un des pirates les plus recherchés du cyber-espace. A cheval entre deux mondes, Neo est assailli par d'étranges songes et des messages cryptés provenant d'un certain Morpheus. Celui-ci l'exhorte à aller au-delà des apparences et à trouver la réponse à la question qui hante constamment ses pensées : qu'est-ce que la Matrice ? Nul ne le sait, et aucun homme n'est encore parvenu à en percer les defenses. Mais Morpheus est persuadé que Neo est l'Elu, le libérateur mythique de l'humanité annoncé selon la prophétie. Ensemble, ils se lancent dans une lutte sans retour contre la Matrice et ses terribles agents...</small>
-                      </div>
-                      <div class="card-footer p-1 p-md-2">
-                      </div>
-                    </div>
-                    <div class="card bg-transparent">
-                        <div class="card-header">
-                            <h3 class="text-center">22h</h3>
+                        <div class="card bg-transparent">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="../images/thecircle.jpg" class="card-img my-md-4" alt="Affiche du film The Circle">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h3 class="card-subtitle">20h The Circle</h3>
+                                        <p class="card-text">Réalisateur : James Ponsoldt</p>
+                                        <p class="card-text">Synopsis : Les Etats-Unis, dans un futur proche. Mae est engagée chez The Circle, le groupe de nouvelles technologies et de médias sociaux le plus puissant au monde. Pour elle, c'est une opportunité en or ! Tandis qu'elle prend de plus en plus de responsabilités, le fondateur de l'entreprise, Eamon Bailey, l'encourage à participer à une expérience révolutionnaire qui bouscule les limites de la vie privée, de l'éthique et des libertés individuelles. Désormais, les choix que fait Mae dans le cadre de cette expérience impactent l'avenir de ses amis, de ses proches et de l'humanité tout entière… </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      <img src="../images/cloudatlas.jpg" class="card-img-top p-md-2" alt="Affiche du film Cloud Atlas">
-                      <div class="card-body p-1 p-md-2">
-                        <h3 class="card-title text-center">Cloud Atlas</h3>
-                        <p class="card-text text-center">Réalisateurs :  Lana Wachowski, Tom Tykwer, Lilly Wachowski</p>
-                        <small>Synopsis : À travers une histoire qui se déroule sur cinq siècles dans plusieurs espaces temps, des êtres se croisent et se retrouvent d’une vie à l’autre, naissant et renaissant successivement… Tandis que leurs décisions ont des conséquences sur leur parcours, dans le passé, le présent et l’avenir lointain, un tueur devient un héros et un seul acte de générosité suffit à entraîner des répercussions pendant plusieurs siècles et à provoquer une révolution. Tout, absolument tout, est lié.</small>
-                      </div>
-                      <div class="card-footer p-1 p-md-2">
-                      </div>
-                    </div>
-                    </div>
-                  </div>
-                -->
-            </article>
+                        <div class="card bg-transparent">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="../images/leffetpapillon.jpg" class="card-img my-md-4" alt="Affiche du film L'Effet papillon">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h3 class="card-subtitle">22h L'Effet papillon</h3>
+                                        <p class="card-text">Réalisateurs :  Eric Bress, J. Mackye Gruber</p>
+                                        <p class="card-text">Synopsis : Une théorie prétend que si l'on pouvait retourner dans le passé et changer quelques détails de notre vie, tout ce qui en découle serait modifié. On appelle cela "l'effet papillon". Evan Treborn a cette faculté. Fasciné, il va d'abord mettre ce don au service de ceux dont les vies ont été brisées dans leur enfance. Il peut enfin repartir dans le passé et sauver la seule jeune fille qu'il ait jamais aimée. Mais Evan va découvrir que ce pouvoir est aussi puissant qu'incontrôlable. Il va s'apercevoir que s'il change la moindre chose, il change tout. En intervenant sur le passé, il modifie le présent et se voit de plus en plus souvent obligé de réparer les effets indésirables de ses corrections...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>       
+                    </section>
+                </article>
+            </div>
         </main>
         <footer>
             <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #880015">
